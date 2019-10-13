@@ -19,3 +19,5 @@ function showDivs(n) {
   }
   slideArray[slideIndex - 1].style.display = "block";
 }
+
+setInterval(() => {plusDivs(+1)}, 5000);
